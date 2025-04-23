@@ -15,10 +15,5 @@ elif hos == "Arch":
   os.chdir(f"{wd}/src/dists/arch")
   bash.run(["bash", "arch.sh"])
 
-elif hos == "archiso":
-
-  os.chdir(f"{wd}/src/dists/archiso")
-  bash.run(["bash", "archiso.sh"])
-
 else:
     print("bahaa support only debian and Arch")
