@@ -8,11 +8,11 @@ echo "source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlight
 echo "source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" >> /home/bahaa/.zshrc
 echo "source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh" >> /home/bahaa/.zshrc
 
-cd ..
+
 git clone https://aur.archlinux.org/paru-bin
 cd paru-bin
 makepkg -si --noconfirm
-cd ../arch
+cd ..
 
 mkdir -p /home/bahaa/.config/alacritty
 cp alacritty.toml /home/bahaa/.config/alacritty/
