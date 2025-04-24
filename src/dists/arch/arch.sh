@@ -16,7 +16,7 @@ cd ..
 
 mkdir -p /home/bahaa/.config/alacritty
 cp alacritty.toml /home/bahaa/.config/alacritty/
-cp -r walls /home/bahaa/
+cp -r ../../walls /home/bahaa/
 echo "exec i3" > /home/bahaa/.xinitrc
 mkdir /home/bahaa/.config/i3status
 cp i3status.config /home/bahaa/.config/i3status/config
